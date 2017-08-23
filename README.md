@@ -13,8 +13,8 @@ This application is built on [Rails 5](http://github.com/rails/rails) and [Ruby 
 
 * Omniauth Libraries:
 
-    [omniauth](http://github.com/intridea/omniauth)
-    [omniauth-oauth2]((https://github.com/intridea/omniauth-oauth2))
+    * [omniauth](http://github.com/intridea/omniauth)
+    * [omniauth-oauth2](https://github.com/intridea/omniauth-oauth2)
 
 ## About Doorkeeper Gem
 
@@ -190,7 +190,14 @@ an index page on which you should see a link `Sign in with OAuth 2 provider`.
      account on this client-application.
  
 
+### References
 
+You can find various references and configuration for `doorkeeper-provider-app`
+in the gist at https://gist.github.com/jiggneshhgohel/102033d245799a985a14dbe5c281302e
+
+### Thanks
+
+Thanks to the author of [this](https://github.com/doorkeeper-gem/doorkeeper-devise-client/) repo based on which this application is built.
 
 
 
